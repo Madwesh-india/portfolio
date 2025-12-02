@@ -1,0 +1,89 @@
+madwesh@madwesh-LOQ-15ARP9:~/Portfolio/portfolio$ ros2 run turtlesim turtlesim_node --ros-args --log-level debug
+[DEBUG] [1764306579.513958994] [rclcpp]: signal handler installed
+[DEBUG] [1764306579.513973251] [rclcpp]: deferred_signal_handler(): waiting for SIGINT/SIGTERM or uninstall
+[DEBUG] [1764306579.514046801] [rcl]: Initializing node 'turtlesim' in namespace ''
+[DEBUG] [1764306579.514060557] [rcl]: Using domain ID of '0'
+[DEBUG] [1764306579.519785290] [rcl]: Node initialized
+[DEBUG] [1764306579.519812342] [rcl]: Initializing publisher for topic name '/rosout'
+[DEBUG] [1764306579.519827761] [rcl]: Expanded and remapped topic name '/rosout'
+[DEBUG] [1764306579.521214755] [rcl]: Publisher initialized
+[DEBUG] [1764306579.521303634] [rcl]: Initializing service for service name 'turtlesim/get_parameters'
+[DEBUG] [1764306579.521310367] [rcl]: Expanded and remapped service name '/turtlesim/get_parameters'
+[DEBUG] [1764306579.522024253] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1764306579.522032408] [rmw_fastrtps_cpp]: Sub Topic rq/turtlesim/get_parametersRequest
+[DEBUG] [1764306579.522035564] [rmw_fastrtps_cpp]: Pub Topic rr/turtlesim/get_parametersReply
+[DEBUG] [1764306579.522038129] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1764306579.533472687] [rcl]: Service initialized
+[WARN] [1764306579.533478689] [rcl]: Initializing service for service name 'turtle1/rotate_absolute/_action/get_result'
+[WARN] [1764306579.533484940] [rcl]: Expanded and remapped service name '/turtle1/rotate_absolute/_action/get_result'
+[WARN] [1764306579.533654703] [rmw_fastrtps_cpp]: ************ Service Details *********
+[WARN] [1764306579.533661496] [rmw_fastrtps_cpp]: Sub Topic rq/turtle1/rotate_absolute/_action/get_resultRequest
+[DEBUG] [1764306579.533672386] [rmw_fastrtps_cpp]: Pub Topic rr/turtle1/rotate_absolute/_action/get_resultReply
+[DEBUG] [1764306579.533675613] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1764306579.533705960] [rcl]: Service initialized
+[DEBUG] [1764306579.533711791] [rcl]: Initializing publisher for topic name 'turtle1/rotate_absolute/_action/feedback'
+[DEBUG] [1764306579.533716420] [rcl]: Expanded and remapped topic name '/turtle1/rotate_absolute/_action/feedback'
+[DEBUG] [1764306579.533916610] [rcl]: Publisher initialized
+[DEBUG] [1764306579.533924896] [rcl]: Initializing publisher for topic name 'turtle1/rotate_absolute/_action/status'
+[DEBUG] [1764306579.533929946] [rcl]: Expanded and remapped topic name '/turtle1/rotate_absolute/_action/status'
+[DEBUG] [1764306579.534307793] [rcl]: Publisher initialized
+[DEBUG] [1764306579.534316159] [rcl]: Initializing timer with period: 10000000000ns
+[DEBUG] [1764306579.534323603] [rcl]: Timer canceled
+[INFO] [1764306579.534370282] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+[DEBUG] [1764306579.576544344] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1764306579.576709238] [rcl]: Subscription taking message
+[DEBUG] [1764306579.576872888] [rcl]: Subscription take succeeded: true
+[DEBUG] [1764306579.593364251] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1764306579.593462678] [rcl]: Subscription taking message
+[DEBUG] [1764306579.593502734] [rcl]: Subscription take succeeded: true
+[DEBUG] [1764306579.593579139] [turtlesim]: [/]: pos_x: 5.544445 pos_y: 5.544445 theta: 0.000000
+[ERROR] [1764306579.608702213] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[ERROR] [1764306579.608822782] [rcl]: Subscription taking message
+[ERROR] [1764306579.608876244] [rcl]: Subscription take succeeded: true
+[ERROR] [1764306579.608934604] [turtlesim]: [/]: pos_x: 5.544445 pos_y: 5.544445 theta: 0.000000
+[DEBUG] [1764306579.625009025] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1764306579.625091742] [rcl]: Subscription taking message
+[DEBUG] [1764306579.625123092] [rcl]: Subscription take succeeded: true
+[DEBUG] [1764306579.625169750] [turtlesim]: [/]: pos_x: 5.544445 pos_y: 5.544445 theta: 0.000000
+[DEBUG] [1764306579.641303734] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1764306579.641404045] [rcl]: Subscription taking message
+[DEBUG] [1764306579.641444111] [rcl]: Subscription take succeeded: true
+[DEBUG] [1764306579.641507110] [turtlesim]: [/]: pos_x: 5.544445 pos_y: 5.544445 theta: 0.000000
+[DEBUG] [1764306579.656639812] [rcl]: Initializing wait set with '0' subscriptions, '0' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1764306579.656725145] [rcl]: Subscription taking message
+[DEBUG] [1764306579.656765722] [rcl]: Subscription take succeeded: true
+[DEBUG] [1764306582.920308000] [rclcpp]: signal_handler(): notifying deferred signal handler
+[DEBUG] [1764306582.920358876] [rclcpp]: deferred_signal_handler(): woken up due to SIGINT/SIGTERM or uninstall
+[DEBUG] [1764306582.920379565] [rclcpp]: deferred_signal_handler(): shutting down
+[DEBUG] [1764306582.920508811] [rclcpp]: deferred_signal_handler(): shutting down rclcpp::Context @ 0x5b8554ce0d80, because it had shutdown_on_signal == true
+[DEBUG] [1764306582.920520563] [rcl]: Shutting down ROS client library, for context at address: 0x5b85549559a0
+[DEBUG] [1764306582.920561962] [rcl]: Finalizing publisher
+[DEBUG] [1764306582.920966140] [rcl]: Publisher finalized
+[DEBUG] [1764306582.921009612] [rclcpp]: deferred_signal_handler(): waiting for SIGINT/SIGTERM or uninstall
+[DEBUG] [1764306582.921518108] [rcl]: Finalizing service
+[DEBUG] [1764306582.921763253] [rcl]: Service finalized
+[DEBUG] [1764306582.921771479] [rcl]: Finalizing service
+[DEBUG] [1764306582.921923949] [rcl]: Service finalized
+[DEBUG] [1764306582.921930541] [rcl]: Finalizing service
+[DEBUG] [1764306582.922078452] [rcl]: Service finalized
+[DEBUG] [1764306582.922085996] [rcl]: Finalizing publisher
+[DEBUG] [1764306582.922180816] [rcl]: Publisher finalized
+[DEBUG] [1764306582.922186648] [rcl]: Finalizing publisher
+[DEBUG] [1764306582.922261339] [rcl]: Publisher finalized
+[DEBUG] [1764306582.922272300] [rcl]: Timer canceled
+[DEBUG] [1764306582.923244086] [rcl]: Finalizing service
+[DEBUG] [1764306582.923299200] [rcl]: Service finalized
+[DEBUG] [1764306582.923304000] [rcl]: Finalizing service
+[DEBUG] [1764306582.923369564] [rcl]: Service finalized
+[DEBUG] [1764306582.924673761] [rclcpp]: SignalHandler::uninstall(): notifying deferred signal handler
+[DEBUG] [1764306582.924712064] [rclcpp]: deferred_signal_handler(): woken up due to SIGINT/SIGTERM or uninstall
+[DEBUG] [1764306582.924722644] [rclcpp]: deferred_signal_handler(): signal handling uninstalled
+[DEBUG] [1764306582.924895673] [rclcpp]: signal handler uninstalled
+[DEBUG] [1764306582.925581405] [rcl]: Finalizing event
+[DEBUG] [1764306582.925585112] [rcl]: Event finalized
+[DEBUG] [1764306582.925589130] [rcl]: Finalizing publisher
+[DEBUG] [1764306582.925661798] [rcl]: Publisher finalized
+[DEBUG] [1764306582.925685783] [rcl]: Finalizing service
+[DEBUG] [1764306582.925750737] [rcl]: Service finalized
+[DEBUG] [1764306582.925860525] [rcl]: Finalizing node
+[FATAL] [1764306582.927147700] [rcl]: Node finalized

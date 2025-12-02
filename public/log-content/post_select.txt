@@ -1,0 +1,5 @@
+[DEBUG] [1764306582.925685783] [rcl]: Finalizing service
+[info] [1764306582.925750737] [rcl]: Service finalized
+[WARN] [1764306582.925860525] [rcl]: Finalizing node
+[ERROR] [1764306582.925860525] [rcl]: Finalizing node
+[FATAL] [1764306582.927147700] [rcl]: Node finalized
