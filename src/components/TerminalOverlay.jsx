@@ -93,7 +93,7 @@ export default function TerminalOverlay({ onClose }) {
     if (bootStarted.current) return;
     bootStarted.current = true;
 
-    fetch("/logs/boot.log")
+    fetch("/log-content/boot.txt")
       .then((res) => res.text())
       .then((txt) => {
         const lines = txt.split("\n").filter(Boolean);
@@ -163,7 +163,7 @@ export default function TerminalOverlay({ onClose }) {
     const chosen = options[selectedIndex].label;
     setPostLines([`You selected: ${chosen}`]);
 
-    fetch("/logs/post_select.log")
+    fetch("/log-content/post_select.txt")
       .then((res) => res.text())
       .then((txt) => {
         const lines = txt.split("\n").filter(Boolean);
@@ -220,7 +220,7 @@ export default function TerminalOverlay({ onClose }) {
   return (
     <div
       ref={overlayRef}
-      className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-[9999]"
+      className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-9999"
     >
       <div
         ref={windowRef}
